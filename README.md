@@ -457,10 +457,11 @@ weight file.</td>
 
 1.  Tests with a single genetic variable (single-variant, T1, T5, or MB
     test)  
-    The format is shown as follows:<img
+    The format is shown as follows:
+    <img
     src="http://dlin.web.unc.edu/wp-content/uploads/sites/1568/2013/11/V4_output_single.png"
-    title="V4_output_single" alt="Output file format" />The
-    1<sup>st</sup> column contains the gene ID and the remaining columns
+    title="V4_output_single" alt="Output file format" />
+    The 1<sup>st</sup> column contains the gene ID and the remaining columns
     under each main header \<Trait_Method\> contain the test statistic,
     the p-value, the genetic effect estimate, its standard error
     estimate, and the warning message for each “Trait” and “Method”
@@ -496,7 +497,7 @@ weight file.</td>
 
     Var_Null: No valid genetic variable for the test.
 
-2.  Tests with multiple genetic variables (VT, SKAT, or customized
+3.  Tests with multiple genetic variables (VT, SKAT, or customized
     test)The 1<sup>st</sup> column contains the gene ID and the
     remaining columns under each main header \<Trait_Method\> contain
     the test statistic, the p-value, and the warning message for each
@@ -546,7 +547,8 @@ accompanying program MASS. We describe below the log file for each test.
     For a set of genetic scores based on the customized weight matrix
     within a gene, *“log_trait_method”* contains the weight identifiers,
     the MACs, the score statistic and the information matrix. The
-    following is an example for two genes:<img
+    following is an example for two genes:
+    <img
     src="http://dlin.web.unc.edu/wp-content/uploads/sites/1568/2013/11/V4_log_custom.png"
     title="V4_log_custom" alt="Output file format" />
 
